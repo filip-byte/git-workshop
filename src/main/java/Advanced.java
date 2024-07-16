@@ -30,6 +30,11 @@ public class Advanced {
         lastThreeWords[2] = wordList[lastIndex-2];
         System.out.println("Last three words: " + Arrays.toString(lastThreeWords));
 
+        /* Task 3 - Create a variable called wordCount that
+        lets us know how many words are in the list. Don't forget to commit. */
+
+        int wordCount = wordList.length;
+        System.out.println("There is " + wordCount + " words in the list.");
 
 
 
