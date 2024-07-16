@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -36,8 +37,19 @@ public class Advanced {
         int wordCount = wordList.length;
         System.out.println("There is " + wordCount + " words in the list.");
 
+        /* Task 4
+        Create a variable called twoLetterWords consisting of all the two letter words in the list. Don't forget to commit.
+         */
 
+        List<String> twoLetterWords = new ArrayList<>();
 
+        for (String word : wordList) {
+            if (word.length() == 2) {
+                twoLetterWords.add(word);
+            }
+        }
+
+        System.out.println("Here is the list of two letter words: " + twoLetterWords);
 
 
 
