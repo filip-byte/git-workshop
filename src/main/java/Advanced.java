@@ -18,6 +18,19 @@ public class Advanced {
         for (String i : firstThreeWords) {
             System.out.println(i);
         }
+        System.out.println("First Three Words: " + Arrays.toString(firstThreeWords));
+
+        /* Task 2 */
+
+        String[] lastThreeWords = new String[3];
+        int lastIndex = wordList.length -1;
+
+        lastThreeWords[0] = wordList[lastIndex];
+        lastThreeWords[1] = wordList[lastIndex-1];
+        lastThreeWords[2] = wordList[lastIndex-2];
+        System.out.println("Last three words: " + Arrays.toString(lastThreeWords));
+
+
 
 
 
